@@ -35,8 +35,6 @@ After the creation of Node.js, JavaScript could also run on the server (Back-End
 
 - Single-Threaded & Event-Driven: JS uses one main thread, but it handles multiple tasks efficiently through the event loop and asynchronous callbacks.
 
-- Prototype-Based: Instead of traditional classes (like Java or C++), JS uses prototypes for object inheritance though modern JS also supports class syntax.
-
 ## 3_ Backend with Node.js
 Node.js is a runtime environment that lets you run JavaScript outside the browser (on the server).
 
