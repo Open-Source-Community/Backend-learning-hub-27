@@ -584,31 +584,7 @@ if (age > 18) {
   const add = (a,b) => { return a+b };
   ```
 
-#### `this` Binding Example:
-
-- **Function**
-  ```javascript
-  const obj = {
-    value: 10,
-    method: function () {
-      console.log(this.value); // Refers to obj
-    }
-  };
-  obj.method(); // Output: 10
-  ```
-
-- **Arrow Function**
-  ```javascript
-  const obj = {
-    value: 10,
-    method: () => {
-      console.log(this.value); // Refers to outer scope
-    }
-  };
-  obj.method(); // Output: undefined
-  ```
-
-#### Constructor Example:
+#### `this` Binding Constructor Example:
 
 - **Function**
   ```javascript
@@ -618,15 +594,6 @@ if (age > 18) {
   const person = new Person("John");
   console.log(person.name); // Output: John
   ```
-
-- **Arrow Function**
-  ```javascript
-  const Person = (name) => {
-    this.name = name;
-  };
-  const person = new Person("John"); // Error: Person is not a constructor
-  ```
-
 
 Functions encapsulate reusable code:
 
