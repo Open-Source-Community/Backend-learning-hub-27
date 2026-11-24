@@ -12,7 +12,6 @@
 10. [Intro to Arrays and Objects](#1️⃣0️⃣-intro-to-arrays-and-objects)
 11. [Loops](#1️⃣1️⃣-loops)
 12. [Comments](#1️⃣2️⃣-comments)
-13. [HandsOn & Task](#1️⃣3️⃣-handson--task)
 
 ---
 # 0️⃣ `JavaScript Overview`
