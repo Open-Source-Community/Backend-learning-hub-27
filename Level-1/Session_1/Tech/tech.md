@@ -601,9 +601,9 @@ const arrowGreet = (name) => `Hello, ${name}!`;
 ```
 
 ---
-# **************************
+
 # 1️⃣0️⃣ Intro to Arrays and Objects
-# **************************
+
 - **Arrays** store ordered collections:
 
 ```javascript
