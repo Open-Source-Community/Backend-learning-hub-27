@@ -15,9 +15,8 @@
 13. [HandsOn & Task](#1️⃣3️⃣-handson--task)
 
 ---
-# **************************
 # 0️⃣ `JavaScript Overview`
-# **************************
+
 ### 1_ What is JavaScript?
 
 JavaScript (JS) is a programming language originally designed to make web pages interactive.
@@ -44,9 +43,9 @@ Node.js is a runtime environment that lets you run JavaScript outside the browse
 It uses Google’s V8 Engine (the same engine that powers Chrome) to execute JS code.
 
 ---
-# **************************
+
 # 1️⃣ `Values & Variables`
-# **************************
+
 Values represent data, while variables store these values for reuse. You can declare variables using `let`, `const`, or `var`:
 
 ```javascript
@@ -224,9 +223,9 @@ const num =12;
 console.log(count); 
 ```
 ---
-# **************************
+
 # 2️⃣ Data Types
-# **************************
+
 JavaScript has several data types, categorized as:
 
 - **Primitive**: 
@@ -344,9 +343,9 @@ let response = null;       // Good: waiting for API response
 - **`null`**: Your way of saying "This is intentionally empty"
 - **Best practice**: Let JavaScript handle `undefined`, you use `null` when needed
 ---
-# **************************
+
 # 3️⃣ Type Conversion and Coercion
-# **************************
+
 Type conversion explicitly changes types, while coercion is implicit:
 
 ```javascript
@@ -367,9 +366,9 @@ console.log(10 == "10");  // true [val only]
 ```
 
 ---
-# **************************
+
 # 4️⃣ Basic Operators
-# **************************
+
 Operators perform operations on values:
 
 - Arithmetic: `+`, `-`, `*`, `/`, `%`
@@ -399,9 +398,9 @@ console.log(10 === "10"); // false [val & data type]
 console.log(10 == "10");  // true [val only]
 ```
 ---
-# **************************
+
 # 5️⃣ Operator Precedence
-# **************************
+
 Operator precedence determines the execution order in complex expressions. Use parentheses to control precedence.
 
 * **Arthimetic:** 
@@ -416,9 +415,9 @@ Operator precedence determines the execution order in complex expressions. Use p
   *   &
   * |
 ---
-# **************************
+
 # 6️⃣ If / else Statements
-# **************************
+
 Conditional statements execute code blocks based on conditions:
 
 ```javascript
@@ -431,9 +430,9 @@ if (age > 18) {
 }
 ```
 ---
-# **************************
+
 # 7️⃣ Strings & String Methods
-# **************************
+
 ### Basic Methods 
 
   ```javascript
@@ -554,9 +553,8 @@ if (age > 18) {
     ```
 
 
-# **************************
 # 8️⃣ Template Literals
-# **************************
+
 - Template literals use backticks for string interpolation and multi-line strings.
   ```javascript
   let name = "John";
@@ -564,9 +562,8 @@ if (age > 18) {
 
 ---
 
-# **************************
 # 9️⃣ Functions & Arrow Functions
-# **************************
+
 
 #### Syntax Example:
 
@@ -622,9 +619,9 @@ let person = { name: "Alice", age: 30 };
 ```
 
 ---
-# **************************
+
 # 1️⃣1️⃣ Loops
-# **************************
+
 Loops repeat code until a condition is met:
 
 - **for loop**:
@@ -644,9 +641,9 @@ while (i < 5) {
 }
 ```
 ---
-# **************************
+
 # 1️⃣2️⃣ Comments 
-# **************************
+
 symbole used for comments in javaScript is `// Single line` for single line and `/* Multi-lines */` for multi-lines
 
 ```javascript
@@ -660,10 +657,3 @@ symbole used for comments in javaScript is `// Single line` for single line and 
 */
 ```
 ---
-# **************************
-# 1️⃣3️⃣ HandsOn & Task
-# **************************
-
-[HandsOn file](./HandsOn/HandsOn.js)
-
-[Task Description](./Task/task.md)
