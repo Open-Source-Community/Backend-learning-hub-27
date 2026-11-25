@@ -142,30 +142,28 @@ git push origin main
 ### Repository Layout
 
 ```
-backend-learning-hub-27/
+Backend-learning-hub-27/
 │
-├── Welcome/                    ← START HERE!
-│   ├── Session_0/             
-│   └── How_To_Get_Started.md  ← You are here
+├── Welcome!/                         ← START HERE!
+│   ├── Session_0/
+│   └── How_To_Get_Started/
+│       └── how_to_get_started.md    ← You are here
 │
-├── Level-1/                    ← Begin your learning journey
+├── Level-1/
 │   ├── Session-1/
-│   │   ├── Theory/            ← Read first
-│   │   ├── Tech/              ← Setup tools
-│   │   └── Code/              ← Practice coding
+│   │   ├── Theory/
+│   │   ├── Tech/
+│   │   └── Code/
 │   ├── Session-2/
+│   │   ├── Tech/
+│   │   └── Code/
+│   │   └── ....
 │   └── ...
 │
-├── Level-2/                    ← Advanced topics
+├── Level-2/
 │   ├── Session-1/
 │   └── ...
 │
-└── More/                       ← Extra materials
-    ├── Assets/
-    ├── Best_Practices/
-    ├── Challenges/
-    ├── Problem_Solving/
-    └── extra_resources/
 ```
 
 ### What Each Folder Contains
