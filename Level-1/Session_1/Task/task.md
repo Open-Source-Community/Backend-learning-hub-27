@@ -119,4 +119,4 @@ Use a `for` loop to log `"Delivering to [name]..."` for each one. Use `break` to
 
 ---
 
-*Run your file with `node task.js`. Good luck — Ahmed is counting on you to help Khaled deliver his pizza!* 🍕
+*Run your file with `node task.js`. Good luck — Ahmed is counting on you to help Khaled deliver his pizza!* 🍕 
